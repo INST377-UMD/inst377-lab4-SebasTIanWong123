@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>INST377 - Lab 4</title>
+    <link rel="stylesheet" href="StylesLab4.css">
+</head>
+<body>
+    <h1 id="m-heading">INST377 -Lab 4</h1>
+
+    <div class="main-container">
+        <!--This is for the Alert Me section-->
+        <div class="main-section">
+            <form id="nameForm">
+                <label for="name">Name:</label>
+                <input type="text" id="name" name="name" required>
+                <button type="button" onclick="alertTheName()">Alert Me!</buttom>
+            </form>
+        </div>
+
+        <!--The Change Color Section-->
+        <div class="main-section">
+            <button type="button" onclick="changeTheColor()">Change Color</button>
+        </div>
+
+        <!--The Text Test Section-->
+        <div class="main-section">
+            <form id="textForm">
+                <label for="text">Text Tester:</label>
+                <input type="text" id="text" name="text">
+                <button type="button" onclick="validateTheText()">Validate Text</button>
+            </form>
+        </div>
+
+        <!--The Add Text Section-->
+        <div class="main-section">
+            <button type="button" onclick="addTheText()">Add Text</button>
+        </div>
+    </div>
+
+    <script src="ScriptsLab4.js"></script>
+</body>
+</html>
